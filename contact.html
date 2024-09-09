@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h1 style="text-align: center">Contact Me</h1>
+
+    <div style="border: 1px solid black; padding: 20px; text-align: center">
+      <form action="action_page.html">
+        <label for="name">Name: </label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+        />
+
+        <br />
+        <br />
+
+        <label for="contact_no">Contact Number: </label>
+        <input
+          type="text"
+          id="contact_no"
+          name="contact"
+          placeholder="Enter your Phone Number"
+        />
+
+        <br />
+        <br />
+
+        <label for="email">Email Address: </label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter a valid Email Address"
+        />
+
+        <br />
+        <br />
+
+        <p>Which type of query you have:</p>
+
+        <input type="radio" id="personal" name="query_type" />
+        <label for="personal">Personal Query</label>
+        <br />
+
+        <input type="radio" id="professional" name="query_type" />
+        <label for="professional">Professional Query</label>
+        <br />
+
+        <input type="radio" id="other" name="query_type" />
+        <label for="other">Others</label>
+
+        <br />
+        <br />
+
+        <label for="comment">Comments</label>
+
+        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+
+        <br />
+        <br />
+
+        <input type="submit" value="Send Me" />
+
+        <input type="reset" value="Reset" />
+      </form>
+    </div>
+  </body>
+</html>
